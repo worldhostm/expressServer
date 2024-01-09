@@ -1,0 +1,14 @@
+html{font-size:10px;}
+html, body, div, span, ul, li, h1, h2, h3, table{margin:0;padding:0;}
+body, button, input {font-family:'나눔고딕', 'NanumGothic', 'Dotum', '돋움', 'gulim', '굴림', Helvetica, sans-serif;color:#000;font-size:1.4rem;font-weight:400;}
+li {list-style:none;}
+a:link, a:hover{text-decoration:none;}
+
+.content{position:absolute;top:52px;bottom:0px;overflow-x:hidden;}
+
+.listArea{width:100%;margin-bottom:50px;}
+.listView li{border-bottom:1px solid #DDD;padding:10px 15px;display:inline-block;}
+.listView li .title {padding:10px 0px;color:#000;font-size:1.6rem;font-weight:400;}
+.listView li .title a{color:#000;}
+.listView li .cont span{display:inline-block;color:#555;}
+.listView li .cont span.date{margin-bottom:5px;color:#999;font-size:1.2rem}
