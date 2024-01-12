@@ -1,4 +1,4 @@
-import {INewsData} from '../interface/apidata.interface';
+import {INewsData} from '../../../interface/apidata.interface';
 import moment from 'moment';
 
 const NewsRow = ({ title, pubDate, description }: INewsData) => {  
