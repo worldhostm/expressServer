@@ -7,10 +7,10 @@ const NaverApiService = () => {
     const search = async (type: string, param: string): Promise<HttpResp> => {
 
         return new Promise<HttpResp>((resolve, reject) => {
-            const CLIENT_ID: string = 'ㅁㄴㅇㅁㄴㅇ';
-            const CLIENT_SECRET: string = 'ㅁㄴㅇㄴㅁㅇㄴ';
+            const CLIENT_ID: string = 'aUIk90yRDU1pXPFe0Le7';
+            const CLIENT_SECRET: string = 'bGi8cBDFI0';
     
-            const apiUrl: string = 'https://openapi.naver.com/v1/search/' + type;
+            const apiUrl: string = 'https://openapi.naver.com/v1/search/' + 'news';
             
             request.get({
                 headers: {
